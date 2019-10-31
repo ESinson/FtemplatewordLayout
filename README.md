@@ -93,7 +93,7 @@
   </div>
   <div id="sidebar" class="floatLeft grSmall">
     <div id="sidebar_image">
-      <img src="img/keithwilliams.jpeg" height="244" width="300"/>
+      <img src="img/ethansss.jpeg" height="244" width="300"/>
     </div>
   </div>
   <div id="footer" class="clear centerText">
