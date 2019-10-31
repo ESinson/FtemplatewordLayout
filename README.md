@@ -1,315 +1,130 @@
 # FtemplatewordLayout
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-}
+/<!doctype html>
+<html class="no-js" lang="">
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 
-/*
- * A better looking default horizontal rule
- */
+  <meta name="theme-color" content="#fafafa">
+</head>
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
 
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
+<!-- Add your site or application content here -->
+<div id="wrapper">
+  <div id="top">
+    <div id="logo" class="floatLeft">
+      <img class="logo_image grSmall" src="img/awesome.png"/>
+    </div>
+    <div id="main_menu" class="floatLeft grBig">
+      <menu>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Teaching</a></li>
+        <li><a href="#">Consulting</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </menu>
+    </div>
+  </div>
+  <div id="masthead">
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
+  </div>
+  <div id="content"class="floatLeft grBig">
+    <div id="article_heading">
+      <h1>Homepage</h1>
+    </div>
+    <div id="article_text">
+      <p>
+        lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu fermentum felis. Praesent facilisis mauris velit,
+        vitae scelerisque arcu tempor et. Sed iaculis ac elit id egestas. Aenean maximus eros aliquam felis tempor iaculis.
+        Morbi ultricies lectus felis, ac mollis lacus venenatis vel. Duis et pellentesque erat. Praesent viverra finibus
+        suscipit. Quisque vel pretium arcu, pulvinar ullamcorper leo. Mauris libero magna, congue sed porta at, eleifend a
+        mi. Pellentesque eget bibendum sapien, eget volutpat est. Donec consectetur volutpat leo id pellentesque. Integer
+        fringilla nulla et sagittis varius. Aliquam condimentum, nisi ac porta ullamcorper, nisl ante pellentesque tortor,
+        ac suscipit lorem odio non leo. Morbi felis urna, malesuada a risus non, egestas fringilla ligula. In luctus
+        convallis felis sit amet sodales.
+      </p>
+      <p>
+        Nam placerat quam ligula. Cras ac pretium orci. Nulla facilisi. Fusce interdum ex dolor, ut cursus eros hendrerit
+        ac. Sed dignissim mauris rhoncus, ornare nibh hendrerit, ultrices nisi. Sed urna erat, placerat nec nunc at,
+        dignissim porta est. Aenean ac lectus fringilla, porttitor lacus vel, sodales mauris. Sed sed ante quis augue
+        volutpat pulvinar non iaculis nulla. Ut mattis ultrices tortor ac gravida. Fusce aliquet metus consectetur lacus
+        ultrices rhoncus. Aenean ut suscipit nisl, ullamcorper tempor lectus. Suspendisse a dictum magna, eu consectetur
+        massa. Phasellus posuere, tortor ut sagittis volutpat, mauris enim egestas elit, a dapibus ipsum dolor at urna.
+        Vestibulum arcu est, convallis sit amet tortor non, sodales tristique lectus.
+      </p>
+      <p>
+        Vivamus luctus eu justo vel pellentesque. Duis vel purus felis. Fusce et aliquam turpis, vel viverra sapien. Nulla
+        euismod, lacus at vulputate imperdiet, arcu lectus rhoncus lectus, nec porttitor nisi sapien ut sem. Nulla viverra
+        tortor quis augue viverra, vitae suscipit felis semper. Nam tincidunt nisi quam, porttitor gravida metus sagittis
+        id. Ut tortor ipsum, lacinia quis enim sit amet, elementum maximus velit. Nulla lobortis, erat ac hendrerit rutrum,
+        quam eros gravida sem, eget pretium dui quam eu nulla. Aenean sed nibh eget sapien viverra commodo. Curabitur
+        pretium ante tempor eros pharetra feugiat.
+      </p>
+      <p>
+        Ut lacus ex, vehicula ac erat non, varius fermentum ipsum. Sed tincidunt consequat diam, quis dictum sem. Duis
+        blandit, urna in viverra volutpat, magna elit euismod massa, quis mollis massa lorem nec leo. Integer tristique eu
+        odio id interdum. Vivamus ultricies massa sed ipsum tincidunt suscipit. Duis sed enim sed enim egestas molestie eu
+        id tellus. Aliquam malesuada metus ut tempor blandit. In facilisis volutpat neque. Mauris libero diam, porta non
+        nulla vitae, congue malesuada purus. Nulla lectus erat, porta ut placerat sed, vehicula ut tortor. Morbi pretium leo
+        sit amet sem ultricies consectetur.
+      </p>
+      <p>
+        Nulla tincidunt eros quis tincidunt laoreet. Integer eu pellentesque augue. Maecenas efficitur felis quis magna
+        dapibus iaculis. Ut sollicitudin, sapien ac consequat accumsan, lacus turpis bibendum nunc, a pretium enim sem et
+        orci. Sed ac erat ut risus dapibus gravida. Ut ut dolor purus. Fusce condimentum mattis nulla nec accumsan. Morbi
+        tincidunt ut nisi nec aliquam.
+      </p>
+    </div>
+  </div>
+  <div id="sidebar" class="floatLeft grSmall">
+    <div id="sidebar_image">
+      <img src="img/keithwilliams.jpeg" height="244" width="300"/>
+    </div>
+  </div>
+  <div id="footer" class="clear centerText">
+    © Keith Williams -
+    <script type="text/javascript">
+        var d = new Date()
+        document.write(d.getFullYear())
+    </script>
+  </div>
+</div>
 
-/*
- * Remove default fieldset styles.
- */
+<script src="js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
-}
-
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-    #wrapper {
-      width: 960px;
-      border: black thin;
-      margin-left: auto;
-      margin-right: auto;
-      font-size: 18px;
-      line-height: 30px;
-      font-family: SansSerif, "Helvetica Neue", Helvetica;
-    }
-    #logo img {
-      height: 116px;
-
-    }
-    #article_text {
-      padding-left: 20px;
-      padding-right: 20px;
-    }
-    #top {
-      height: 120px;
-      line-height: 120px
-    }
-    #masthead {
-      height: 78px;
-      background-size: cover;
-      background: url(../img/background.jpg) no-repeat;
-      background-position-y: center;
-    }
-    #main_menu menu {
-      padding: 0px;
-      margin: 0px;
-      text-align: right;
-    }
-    #sidebar img {
-      padding: 20px;
-    }
-    #sidebar_image {
-      margin-right: auto;
-      margin-left: auto;
-      width: 320px;
-    }
-    #footer {
-      height: 120px;
-    }
-    .centerText {
-      text-align: center;
-    }
-    .floatLeft {
-      float: left;
-    }
-    .grBig {
-      width: 593px;
-    }
-    .grSmall {
-      width: 367px;
-    }
-    .clear {
-      clear: both;
-    }
-    #main_menu li  {
-      display: inline;
-      margin: 0px 0px 0px 30px;
-
-    }
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden {
-  display: none !important;
-}
-
-/*
-* Hide only visually, but have it available for screen readers:
-* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-*
-* 1. For long content, line feeds are not interpreted as spaces and small width
-*    causes content to wrap 1 word per line:
-*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-*/
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-
-/*
-* Extends the .sr-only class to allow the element
-* to be focusable when navigated to via the keyboard:
-* https://www.drupal.org/node/897638
-*/
-
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
-
-/*
-* Hide visually and from screen readers, but maintain layout
-*/
-
-.invisible {
-  visibility: hidden;
-}
-
-/*
-* Clearfix: contain floats
-*
-* For modern browsers
-* 1. The space content is one way to avoid an Opera bug when the
-*    `contenteditable` attribute is included anywhere else in the document.
-*    Otherwise it causes space to appear at the top and bottom of elements
-*    that receive the `clearfix` class.
-* 2. The use of `table` rather than `block` is only necessary if using
-*    `:before` to contain the top-margins of child elements.
-*/
-
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster */
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-  /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
-  pre {
-    white-space: pre-wrap !important;
-  }
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-  /*
-     * Printing Tables:
-     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-  thead {
-    display: table-header-group;
-  }
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-}
+</html>
